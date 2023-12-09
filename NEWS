@@ -1,3 +1,11 @@
+2022-12-20: pyliblo 0.10.1
+
+This release contains the following notable changes by 1 contributor:
+  * Fix compatibility with Python 3.11.
+  * Add a Python typing interface file.
+
+See Git log for more information.
+
 2015-04-14: pyliblo 0.10.0
 
   * New and improved documentation, built from docstrings using Sphinx.

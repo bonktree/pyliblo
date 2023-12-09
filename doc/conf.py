@@ -16,7 +16,7 @@ master_doc = 'index'
 
 project = u'pyliblo'
 copyright = u'2007-2014, Dominic Sacré'
-version = '0.10.0'
+version = '0.10.1'
 release = ''
 
 html_theme = 'nasophon'
