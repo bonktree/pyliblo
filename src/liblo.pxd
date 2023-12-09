@@ -43,10 +43,10 @@ cdef extern from 'lo/lo.h':
         LO_UNIX
         LO_TCP
 
-    ctypedef void(*lo_err_handler)(int num, const_char *msg, const_char *where)
-    ctypedef int(*lo_method_handler)(const_char *path, const_char *types, lo_arg **argv, int argc, lo_message msg, void *user_data)
-    ctypedef int(*lo_bundle_start_handler)(lo_timetag time, void *user_data)
-    ctypedef int(*lo_bundle_end_handler)(void *user_data)
+    ctypedef void(*lo_err_handler)(int num, const_char *msg, const_char *where) noexcept
+    ctypedef int(*lo_method_handler)(const_char *path, const_char *types, lo_arg **argv, int argc, lo_message msg, void *user_data) noexcept
+    ctypedef int(*lo_bundle_start_handler)(lo_timetag time, void *user_data) noexcept
+    ctypedef int(*lo_bundle_end_handler)(void *user_data) noexcept
 
     # send
     int lo_send_message_from(lo_address targ, lo_server serv, char *path, lo_message msg)
