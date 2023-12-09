@@ -1,3 +1,10 @@
+2023-12-09: pyliblo 0.10.2
+
+This release contains the following notable changes by 1 contributor:
+  * Fix compatibility with Cython 3.0.5.
+
+See Git log for more information.
+
 2022-12-20: pyliblo 0.10.1
 
 This release contains the following notable changes by 1 contributor:
